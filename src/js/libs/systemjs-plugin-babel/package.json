@@ -1,0 +1,50 @@
+{
+  "name": "systemjs-plugin-babel",
+  "version": "0.0.2",
+  "registry": "npm",
+  "jspmPackage": true,
+  "main": "plugin-babel.js",
+  "map": {
+    "systemjs-babel-build": {
+      "browser": "./systemjs-babel-browser.js",
+      "node": "./systemjs-babel-node.js"
+    }
+  },
+  "meta": {
+    "./plugin-babel.js": {
+      "format": "cjs"
+    }
+  },
+  "files": [
+    "plugin-babel.js",
+    "babel-helpers",
+    "babel-helpers.js",
+    "regenerator-runtime.js",
+    "systemjs-babel-browser.js",
+    "systemjs-babel-node.js"
+  ],
+  "gitHead": "74e8acf35e4c4ea6cb29e4ad391793edb52dfe5f",
+  "description": "SystemJS Babel Plugin ===",
+  "_id": "systemjs-plugin-babel@0.0.2",
+  "scripts": {},
+  "_shasum": "de9855e94018090010a6d2f8a1e37c1631ef18e4",
+  "_from": "systemjs-plugin-babel@latest",
+  "_npmVersion": "2.14.15",
+  "_nodeVersion": "5.1.1",
+  "_npmUser": {
+    "name": "guybedford",
+    "email": "guybedford@gmail.com"
+  },
+  "dist": {
+    "shasum": "de9855e94018090010a6d2f8a1e37c1631ef18e4",
+    "tarball": "http://registry.npmjs.org/systemjs-plugin-babel/-/systemjs-plugin-babel-0.0.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "guybedford",
+      "email": "guybedford@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/systemjs-plugin-babel/-/systemjs-plugin-babel-0.0.2.tgz"
+}
