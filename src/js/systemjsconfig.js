@@ -1,3 +1,4 @@
+// Paths below are relative to the host .html file, not relative to the current file.
 System.config({
     transpiler: "plugin-babel",
     map: {
